@@ -1,0 +1,96 @@
+/* Main CSS */
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 50px;
+  color: Black;
+  font-family: 'Sacramento', serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  padding: 20px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  /* background-color: lightcyan;*/
+  height: 0px;
+  width: 10%;
+  padding: 10px;
+}
+
+/* Nav bar */
+nav ul {
+  padding: 0;
+  margin-top: 0;
+  position: fixed;
+  text-align: right;
+  width: 100%;
+  background-color: black;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2em;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: grey;
+}
+
+/* class selectors */
+.bottom-container {
+  background-color: lightgrey;
+  position: fixed; bottom: 0;
+  width: 100%;
+  display: block;
+}
+
+.bottom-container-index {
+  background-color: lightgrey;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.home {
+  position: left;
+}
+
+.ccfooter {
+  font-size: .75em;
+}
+
+.links {
+  color: white;
+}
+.TimBanta {
+  text-decoration: underline;
+}
